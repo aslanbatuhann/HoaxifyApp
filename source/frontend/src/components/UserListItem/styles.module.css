@@ -1,0 +1,22 @@
+.link{
+    color: #4a5568;
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 5px 16px;
+    display: list-item;
+    font-size: 16px;
+    list-style: none;
+}
+.link .img {
+    border-radius: 8px;
+    width: 32px;
+    height: 32px;
+}
+
+.link .span {
+    margin-left: 12px;
+}
+
+.link span:hover {
+    color: #000;
+}

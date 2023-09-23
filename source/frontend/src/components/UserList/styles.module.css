@@ -1,0 +1,56 @@
+.card{
+    padding: 0px 0px 36px 0px;
+    margin-bottom: 2px;
+    background-color: #f1f1f1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+}
+
+.h3 {
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+.spinner {
+    display: flex;
+    justify-content: center;
+}
+
+.card .buttonNext {
+    border-radius: 10px;
+    background: #ECECEC;
+    float: right;
+    color:#7f7f7f;
+    text-decoration: none;
+    text-shadow:0px 1px 0px #fff;
+    border:1px solid #a7a7a7;
+    width: 90px;
+    margin-right: 5px;
+    box-shadow: 0px 2px 1px white inset, 0px -2px 8px white, 0px 2px 5px rgba(0, 0, 0, 0.1), 0px 8px 10px rgba(0, 0, 0, 0.1);
+    
+}
+.failure {
+    text-align: center;
+    color: crimson;
+}
+
+.card .buttonPrevious {
+    border-radius: 10px;
+    margin-left: 5px;
+    float: left;
+    margin-bottom: 5;
+    background: #ECECEC;
+    color:#7f7f7f;
+    text-decoration: none;
+    text-shadow:0px 1px 0px #fff;
+    border:1px solid #a7a7a7;
+    width: 90px;
+    box-shadow: 0px 2px 1px white inset, 0px -2px 8px white, 0px 2px 5px rgba(0, 0, 0, 0.1), 0px 8px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.buttonNext:hover{
+    box-shadow: 0px 2px 1px white inset, 0px -2px 20px white, 0px 2px 5px rgba(0, 0, 0, 0.1), 0px 8px 10px rgba(0, 0, 0, 0.1);
+}
+.buttonPrevious:hover{
+    box-shadow: 0px 2px 1px white inset, 0px -2px 20px white, 0px 2px 5px rgba(0, 0, 0, 0.1), 0px 8px 10px rgba(0, 0, 0, 0.1);
+}

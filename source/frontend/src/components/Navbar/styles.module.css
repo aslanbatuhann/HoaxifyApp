@@ -1,0 +1,66 @@
+.nav {
+    margin-bottom: 2px;
+    padding: 13px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    border-bottom: solid 1px #e2e8f0;
+    line-height: 2px;
+    align-items: center;
+}
+
+.nav .right {
+    display: flex;
+}
+
+.nav .right .menu {
+    display: flex;
+    margin: auto;
+    list-style-type: none;
+}
+
+.nav .right .menu li a {
+    color: #4a5568;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+}
+
+.nav .right .menu li {
+    color: #4a5568;
+    margin: auto;
+}
+
+.nav .right .menu li a:hover {
+    color: #000;
+}
+
+.nav .right a {
+    margin:auto;
+    padding: 5px;
+}
+
+
+
+.nav .right .menu li div button .image {
+    height: 32px;
+    width: 32px;
+    border-radius: 16px;
+}
+
+.nav .right .menu li div button a {
+    cursor: pointer;
+    margin: auto;
+    
+}
+
+.nav .right .menu li div button .image:hover {
+    cursor: pointer;
+}
+
+.nav .right .menu li div  a {
+    cursor: pointer;
+    margin-bottom: 5px;
+    margin-top: 3px;
+    padding: 8px;
+}
